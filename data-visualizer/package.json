@@ -2,7 +2,7 @@
   "name": "data-visualizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://visualnocodeweb-ship-it.github.io/bigdata/",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",

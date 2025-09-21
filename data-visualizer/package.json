@@ -2,7 +2,7 @@
   "name": "data-visualizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://simt-arg.github.io/bigdatanqn/",
+  "homepage": "https://visualnocodeweb-ship-it.github.io/bigdata/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.8",
     "chart.js": "^4.5.0",
+    "leaflet": "^1.9.4",
     "papaparse": "^5.5.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.10",

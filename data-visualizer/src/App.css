@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  position: relative; /* Added for positioning context */
+}
+
+/* On small screens, the sidebar is off-canvas, so the main content takes the full width */
+@media (max-width: 991.98px) {
+  .main-content {
+    width: 100%;
+  }
+}
+
+/* On large screens, the sidebar is fixed, so we need to add a margin to the main content */
+@media (min-width: 992px) {
+  .main-content {
+    margin-left: 255px; /* Same as the sidebar width */
+  }
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
